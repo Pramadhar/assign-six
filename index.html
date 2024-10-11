@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <nav class="w-11/12 mx-auto pb-6">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Home</a></li>
+            <li><a>Shop</a></li>
+            <li><a>contact</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl">Peddy</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>Shop</a></li>
+          <li><a>contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <img class="w-10 rounded-full" src="https://img.icons8.com/?size=100&id=23264&format=png" alt="">
+      </div>
+    </div>
+ </nav>
+ <header class="text-center space-y-6  items-center justify-center pb-6 ">
+  <h2 class="text-grey-50">Bringing Families Together ❤️‍🔥 </h2>
+  <h1 class="text-5xl" >Your Path to Adoption Starts Here</h1>
+  <p>It is a long established fact that a reader will be distracted by the readable content <br> </p>
+  <button class="bg-green-100  p-4 rounded-lg">View More</button>
+  <img class="mx-auto" src="images/pet.webp" alt="">
+  <h2 class="text-3xl">Adopt  Your  Best Friend</h2>
+  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <br> The point of using Lorem Ipsum is that it has a.</p>
+ </header>
+<header class="flex py-3 gap-12 justify-center pb-4" id="categories"></header>
+<main class="flex mt-3 p-4 gap-2">
+  <section id="pets" class="w-3/4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></section>
+  <section class="w-1/4 border">  </section>
+</main>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
